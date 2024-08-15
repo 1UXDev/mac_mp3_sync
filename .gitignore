@@ -1,0 +1,62 @@
+# Ignore the virtual environment directory
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore macOS system files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+#  Usually these files are written to by PyInstaller
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variable files
+.env
+.env.*
+
+# Ignore logs and temporary files
+*.log
+*.temp
+*.tmp
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore system-specific or user-specific settings files
+*.swp
+*.swo
